@@ -1,7 +1,7 @@
 version: '3'
 services:
   motioneye:
-    image: ccrisan/motioneye:master-armhf
+    image: ccrisan/motioneye:master-amd64 # for use on arm cpu use this tag :master-armhf
     container_name: motioneye
     ports:
       - "8765:8765"
